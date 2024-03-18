@@ -258,12 +258,12 @@
 		// #region My Name Left and Right Animations
 
 		var indexOfMyName = 0;
-		var myNameLefts = 	["<", 	".(", 	"", 		"=", 	"",			"{"]; 
-		var myNameRights = 	["/>", 	");", 	"() {}", 	";", 	".lrn();", 	"}"];
+		var myNameLefts = 	["<", 	".(", 	"//",	"", 		"=", 	"",			"/*",		"{"];
+		var myNameRights = 	["/>", 	");", 	"",		"() {}", 	";", 	".lrn();", 	"*/",		"}"];
 		var myNameLength = myNameLefts.length;
 		var $myNameLeft = $('#my-name-left');
 		var $myNameRight = $('#my-name-right');
-		var frequenyOfInterval = 2000; // in milliseconds
+		var frequenyOfInterval = 1250; // in milliseconds
 
 
 		// Initialize

@@ -144,7 +144,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	body, input, select, textarea {
@@ -176,7 +176,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 		margin: 0 0 2rem 0;
 	}
 
@@ -288,25 +288,25 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	a {
-		color: #212931;
+		color: #ffffff;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #facfbe !important;
 		}
 
 	strong, b {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	blockquote {
@@ -2206,8 +2206,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #be9d91;
+		color: #be9d91 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2215,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #facfbe;
+			color: #facfbe !important;
 		}
 
 		input[type="submit"].primary,
@@ -2224,9 +2224,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #be9d91;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #be9d91 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #facfbe;
 			}
 
 /* Form */
@@ -2856,6 +2856,10 @@ input, select, textarea {
 			padding-left: 0.5rem;
 		}
 
+		ul.footerNav {
+			list-style: none;
+		}
+
 		ul.divided {
 			list-style: none;
 			padding-left: 0;
@@ -3354,8 +3358,8 @@ input, select, textarea {
 		#intro button,
 		#intro .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 2px #be9d91;
+			color: #be9d91 !important;
 		}
 
 			#intro input[type="submit"]:hover,
@@ -3363,8 +3367,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #facfbe;
+				color: #facfbe !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3372,7 +3376,7 @@ input, select, textarea {
 			#intro input[type="button"].primary,
 			#intro button.primary,
 			#intro .button.primary {
-				background-color: #ffffff;
+				background-color: #be9d91;
 				box-shadow: none;
 				color: #1e252d !important;
 			}
@@ -3382,7 +3386,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #facfbe;
 				}
 
 
@@ -3849,10 +3853,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		/*background-color: #ffffff;*/
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: calc(100% - 2rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -4046,36 +4050,39 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
-		color: #909498;
+		background-color: transparent;
+		color: #ffffff;
 		cursor: default;
 		position: relative;
-		margin: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 6rem;
+		margin-bottom: auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #717981;
+			color: #ffffff;
 		}
 
 		#footer a {
-			color: #717981;
-			border-bottom-color: rgba(113, 121, 129, 0.5);
+			color: #ffffff;
+			border-bottom-style: none;
 		}
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #facfbe !important;
 			}
 
 		#footer strong, #footer b {
-			color: #717981;
+			color: #ffffff;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #ffffff;
 		}
 
 		#footer blockquote {
@@ -4110,7 +4117,7 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
+				box-shadow: inset 0 0 0 2px #facfbe;
 				color: #18bfef !important;
 			}
 
@@ -4129,7 +4136,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #facfbe;
 				}
 
 		#footer label {
@@ -4149,7 +4156,7 @@ input, select, textarea {
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #facfbe;
 			}
 
 		#footer select {
@@ -4184,7 +4191,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #facfbe;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4212,7 +4219,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #facfbe;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4220,7 +4227,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #facfbe;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4260,14 +4267,14 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #facfbe !important;
+				border-color: #facfbe;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #facfbe;
 				}
 
 			#footer .pagination a.active {
@@ -4291,9 +4298,20 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 1rem 1rem 1rem 1rem ;
 			border-left: solid 2px #e2e2e2;
 		}
+
+			#footer .footerNavWrapper {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-align-items: stretch;
+				-webkit-align-items: stretch;
+				-ms-align-items: stretch;
+				align-items: stretch;
+			}
 
 			#footer > section:first-child {
 				border-left: 0;
@@ -4304,6 +4322,14 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
+				/*-moz-flex-basis: 40%;
+				-webkit-flex-basis: 40%;
+				-ms-flex-basis: 40%;
+				flex-basis: 40%;*/
+				-moz-justify-content: center;
+				-webkit-justify-content: center;
+				-ms-justify-content: center;
+				justify-content: center;
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
@@ -4317,12 +4343,12 @@ input, select, textarea {
 				}
 
 					#footer > section.split > section:first-child {
-						padding: 5rem 4rem 1rem 4rem ;
+						padding: 1rem 0.5rem 1rem 0.5rem ;
 						border-top: 0;
 					}
 
 					#footer > section.split > section:last-child {
-						padding: 3rem 4rem 3rem 4rem ;
+						padding: 1rem 0.5rem 1rem 0.5rem ;
 					}
 
 				#footer > section.split.contact > section {
@@ -4362,14 +4388,15 @@ input, select, textarea {
 						-webkit-flex-grow: 1;
 						-ms-flex-grow: 1;
 						flex-grow: 1;
+						text-align: left;
 					}
 
 					#footer > section.split.contact > section:first-child {
-						padding: 4rem 4rem 3rem 4rem;
+						padding: 1rem 2rem 1rem 2rem ;
 					}
 
 					#footer > section.split.contact > section:last-child {
-						padding: 3rem 4rem 4rem 4rem;
+						padding: 1rem 2rem 1rem 2rem ;
 					}
 
 					#footer > section.split.contact > section.alt {
